@@ -12,10 +12,10 @@ services:
 deploy: 
     provider: elasticbeanstalk
     region: "eu-central-1"
-    app: "go-app"
-    env: "GoApp-env-1"
-    bucket_name: "go-app-bucket"
-    bucket_path: "go-app"
+    app: "ozgur-go-app"
+    env: "OzgurGoApp-env-1"
+    bucket_name: "ozgur-go-app-bucket"
+    bucket_path: "ozgur-go-app"
     on:
         branch: main
     access_key_id: $AWS_ACCESS_KEY_ID
