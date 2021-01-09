@@ -13,7 +13,7 @@ deploy:
     provider: elasticbeanstalk
     region: "eu-central-1"
     app: "ozgur-go-app"
-    env: "OzgurGoApp-env-1"
+    env: "OzgurGoApp-env"
     bucket_name: "ozgur-go-app-bucket"
     bucket_path: "ozgur-go-app"
     on:
