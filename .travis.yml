@@ -17,7 +17,7 @@ deploy:
     bucket_name: "go-app-bucket"
     bucket_path: "go-app"
     on:
-        branch: master
+        branch: main
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key:
         secure: "$AWS_SECRET_ACCESS_KEY"
